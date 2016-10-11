@@ -1,0 +1,303 @@
+*{margin: 0;padding: 0;}
+body{
+    font-size: 16px;
+    font-family: Arial,"Hiragino Sans GB","微软雅黑","黑体";
+    color: #fff;
+    background-color: #E5E5E5;
+}
+#main{
+    width: 1280px;
+    margin: 0 auto;
+    color: #000;
+}
+img{border:none}
+/*导航栏*/
+#nav{
+    width: 1280px;
+    height: 95px;
+    background-color: #E5E5E5;
+}
+.img_iff{
+    float: left;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+.alink{
+    display: inline-block;
+    text-decoration:none;
+    color: #000;
+    padding: 60px 10px 17px 10px;
+}
+ul{
+    list-style-type: none;
+    float: right;
+}
+ul>li{
+    height: 95px;
+    float: left;
+}
+
+.right_li{
+    margin-right:185px;
+}
+#img_sell{
+    width: 1280px;
+    height: 278px;
+    margin-top: -3px;
+}
+/*---------关于我们 -------*/
+/*body内容区域*/
+#text_main{
+    width: 1280px;
+}
+/*左边区域*/
+#aside{
+    float: left;
+    width: 400px;
+    background-color: #E1E1E1;
+}
+.p_mag{
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.p_mag1{
+    font-weight: bold;
+    font-size: 18px;
+}
+.pmag2{
+    font-size: 14px;
+    color:#757575;
+}
+/*右边区域*/
+#rightinfo{
+    float: left;
+    width: 880px;
+    background-color: #fff;
+}
+.lg_txt{
+    font-size:40px;
+}
+.p1_ab{
+    font-size: 50px;
+}
+.rg_main{
+    width: 750px;
+    margin: 30px auto
+}
+/*定位*/
+.positiong{
+    margin-top: 50px;
+    font-size:30px;
+    color: #818181;
+}
+.tex_posit{
+    margin-top: 30px;
+    font-size: 16px;
+    color: #000;
+}
+.tex_posit2{
+    margin-top: 20px;
+    color: #000;
+    font-size: 14px;
+}
+/*页脚*/
+#footer{
+    color: #fff;
+    width: 1280px;
+    height: 205px;
+    background-color: #363636;
+}
+.fot_lef{
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 45px;
+    float: left;
+}
+.fot_rg{
+    width: 320px;
+    float: right;
+}
+.fot_div{
+    width: 160px;
+    text-align: center;
+    float: left;
+    height: 205px;
+}
+.fot_div1{
+    background-color: #653DEB;
+}
+.page_all{
+    margin-top: 60px;
+}
+
+/*---------组织结构 -------*/
+#text_main11{
+    width: 1280px;
+}
+/*左边区域*/
+#aside_start{
+    float: left;
+    width: 400px;
+    background-color: #E1E1E1;
+}
+.p_mag{
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.p_mag1{
+    font-weight: bold;
+    font-size: 18px;
+}
+.pmag2{
+    font-size: 14px;
+    color:#757575;
+}
+/*右边区域*/
+#rightinfo11{
+    float: left;
+    width: 880px;
+    background-color: #fff;
+}
+#text_main22{
+    width: 1280px;
+}
+/*左边区域*/
+#aside_proj{
+    float: left;
+    width: 400px;
+    background-color: #E1E1E1;
+}
+.p_mag{
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.p_mag1{
+    font-weight: bold;
+    font-size: 18px;
+}
+.pmag2{
+    font-size: 14px;
+    color:#757575;
+}
+/*右边区域*/
+#rightinfo22{
+    float: left;
+    width: 880px;
+    background-color: #fff;
+}
+
+/*---------投资项目 -------*/
+#text_main22{
+    width: 1280px;
+}
+/*左边区域*/
+#aside_proj{
+    float: left;
+    width: 400px;
+    background-color: #E1E1E1;
+}
+.p_mag{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.p_mag1{
+    font-weight: bold;
+    font-size: 18px;
+}
+.pmag2{
+    font-size: 14px;
+    color:#757575;
+}
+/*右边区域*/
+#rightinfo22{
+    float: left;
+    width: 880px;
+    background-color: #fff;
+}
+.aside_bot{
+    margin-top: 1200px;
+    padding:20px;
+    margin-left: 50px;
+}
+.page_p{
+    margin-top: 20px;
+}
+/*-----联系我们------*/
+#main_con{
+    margin-top: 50px;
+    margin-left: 130px;
+}
+/*---total-----*/
+.nav_bar{
+    width: 1280px;
+    height: 800px;
+    background-image: url(../img/背景大图.jpg);
+}
+.ak{
+    display: inline-block;
+    text-decoration:none;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 80px;
+    padding: 10px;
+}
+.bar{
+    color: #fff;
+}
+
+/*----------主界面动画------*/
+/*联系我们动画*/
+.cont:hover{
+    animation: ct 1s;
+    -moz-animation: ct 1s;	/* Firefox */
+    -webkit-animation: ct 1s;	/* Safari 和 Chrome */
+    -o-animation: ct 1s;
+    -ms-keyframes: ct 1s;
+}
+
+/*创投动画*/
+.chuangt:hover{
+    animation: ct 1s;
+    -moz-animation: ct 1s;	/* Firefox */
+    -webkit-animation: ct 1s;	/* Safari 和 Chrome */
+    -o-animation: ct 1s;
+    -ms-keyframes: ct 1s;
+}
+.zj:hover{
+    animation: ct 1s;
+    -moz-animation: ct 1s;	/* Firefox */
+    -webkit-animation: ct 1s;/* Safari 和 Chrome */
+    -o-animation: ct 1s;
+    -ms-keyframes: ct 1s;
+}
+@keyframes ct{
+    from{transform:rotateY(0)}
+    to{transform:rotateY(360deg)}
+}
+@-o-keyframes ct{
+    from{transform:rotateY(0)}
+    to{transform:rotateY(360deg)}
+}
+@-moz-keyframes ct{
+    from{transform:rotateY(0)}
+    to{transform:rotateY(360deg)}
+}
+@-webkit-keyframes ct{
+    from{transform:rotate(0)}
+    to{transform:rotateY(360deg)}
+}
+@-ms-keyframes ct{
+    from{transform: rotate(0)}
+    to{transform: rotateY(360deg)}
+}
+
+
+
+
+
+
+
+
+
+
+

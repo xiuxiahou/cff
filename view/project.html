@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>投资项目</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/style.css"/>
+    <script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
+</head>
+<body>
+<div id="main">
+    <!--导航栏-->
+    <div id="nav">
+        <a href="../index.html"><img class="img_iff" src="../img/iff.png"/></a>
+        <p></p>
+        <ul>
+            <li><a class="alink" href="about.html">关于我们About</a></li>
+            <li><a class="alink" href="star.html">股东结构Shareholders </a></li>
+            <li><a class="alink" href="project.html" style="background-color: #CDCDCD;color:#fff;">投资项目Portofolio</a></li>
+            <li class="right_li"><a class="alink" href="contact.html">联系我们Contact</a></li>
+        </ul>
+    </div>
+    <div style="clear: both"></div>
+    <!--展示图片-->
+    <div id="img_sell">
+        <img src="../img/banner1.png" style="width: 100%"/>
+    </div>
+    <!--内容显示区域-->
+    <div id="text_main22">
+        <!--侧边栏-->
+        <div id="aside_proj">
+            <div class="p_mag p_mag1">
+                <p>PORTOFOLIO</p>
+                <p>投资项目</p>
+            </div>
+            <div class="p_mag pmag2">
+                <p><a href="#guany" style="color:#757575;text-decoration:none;">关于点融</a></p>
+                <p><a href="#guany" style="color:#757575;text-decoration:none;">About Dianrong.com</a></p>
+            </div>
+
+        </div>
+        <!--右边栏-->
+        <div id="rightinfo22">
+            <div class="rg_main">
+                <div class="lg_txt" style="border-bottom: 1px solid #000;padding-bottom: 30px">
+                    <p class="p1_ab">PORTOFOLIO</p>
+                    <p>投资项目</p>
+                    <img style="width: 90px;margin-top: 20px" src="../img/店融网.png" alt=""/>
+                </div>
+                <div class="positiong"style="border-bottom: 1px solid #000;padding-bottom: 30px">
+                    <p><a name="guany">关于点融</a></p>
+                    <p>About</p>
+                    <p>Dianrong.com</p>
+                   <div class="tex_posit">
+                        <p style="margin-top: 5px">点融是中国互联网金融科技基金在中国投资的第一家互联网金融科技项目</p>
+                        <p style="margin-top: 5px">点融网是一家中国领先的创新互联网金融平台，由全球最大的网络借贷平台LendingClub联合国创始人苏海德创办</p>
+                        <p style="margin-top: 5px">点融网的股东包括中国互联网金融科技基金、渣打银行、老虎基金、马云家族基金、新鸿基金融、领睿资本、北极光等</p>
+                    </div>
+                    <div class="tex_posit2">
+                       <p style="margin-top: 5px">Dianrong.com is the first company CFF invested in in China</p>
+                       <p style="margin-top: 5px">Dianrong.com is a leading internet finance platform, founded in 2012 by the co-founder and former Head of Technology of Lending Club, Mr. Soul Htite. It aims to combine internet technology and finance innovation, constructing a highly efficient, transparent, user friendly online finance platform</p>
+                       <p style="margin-top: 5px">Dianrong.com’s shareholders includes: China FinTech fund,Standard Charted, Tiger Global Management, Jack Ma’s family fund, Sung Hung Kai Financial,  L.R. Capital, Northern Light Venture Capital .etc </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div style="clear: both"></div>
+    <div id="footer">
+        <div class="fot_lef" >
+            <p>Tel (电话): (852) 3691 8787 &nbsp;&nbsp;&nbsp;Fax (传真): (852) 3691 8829</p>
+            <p>香港中环夏悫道10号和记大厦419-420室</p>
+            <p>Room 419-420,Hutchison House,10 Harcourt Road,Central,Hong Kong</p>
+            <p>中国互联网金融科技投资咨询(香港)有限公司</p>
+            <p>China FinTech Investment Advisory Hong Kong Limited</p>
+        </div>
+        <div class="fot_rg" style="position: relative" >
+            <div style="position:absolute;top:80px;left: -390px;">
+                <a id="boxa">
+                    <img src="../img/top.gif" style="width: 100px;"/>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(function(){
+        $('#boxa').click(function(){
+            $('html,body').animate({scrollTop: $('#nav').offset().top}, 1500);
+        })
+    });
+</script>
+</body>
+</html>

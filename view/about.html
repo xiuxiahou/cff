@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>关于我们</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/style.css"/>
+    <script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
+
+</head>
+<body>
+    <div id="main">
+        <!--导航栏-->
+        <div id="nav">
+            <a href="../index.html"><img class="img_iff" src="../img/iff.png"/></a>
+            <p></p>
+            <ul>
+                <li><a class="alink" href="about.html" style="background-color:#CDCDCD;color: #fff;">关于我们About</a></li>
+                <li><a class="alink" href="star.html">股东结构Shareholders </a></li>
+                <li><a class="alink" href="project.html">投资项目Portofolio</a></li>
+                <li class="right_li"><a class="alink" href="contact.html">联系我们Contact</a></li>
+            </ul>
+        </div>
+        <div style="clear: both"></div>
+        <!--展示图片-->
+        <div id="img_sell">
+            <img src="../img/banner2.png" style="width: 100%"/>
+        </div>
+        <!--内容显示区域-->
+        <div id="text_main">
+            <!--侧边栏-->
+            <div id="aside">
+                <div class="p_mag p_mag1">
+                    <p>ABOUT</p>
+                    <p>关于我们</p>
+                </div>
+                <div class="p_mag pmag2">
+                    <p><a href="#dingw" style="color:#757575;text-decoration:none;">定位</a></p>
+                    <p><a href="#dingw" style="color:#757575;text-decoration:none;">Positioning</a></p>
+                </div>
+                <div class="p_mag pmag2">
+                    <p><a href="#yuanq" style="color:#757575;text-decoration:none;">缘起</a></p>
+                    <p><a href="#yuanq" style="color:#757575;text-decoration:none;">Origin</a></p>
+                </div>
+                <div class="p_mag pmag2">
+                    <p><a href="#yuanj" style="color:#757575;text-decoration:none;">愿景</a></p>
+                    <p><a href="#yuanj" style="color:#757575;text-decoration:none;">Mission</a></p>
+                </div>
+            </div>
+            <!--右边栏-->
+            <div id="rightinfo">
+                <div class="rg_main">
+                    <div class="lg_txt">
+                        <p class="p1_ab">ABOUT</p>
+                        <p>关于我们</p>
+                    </div>
+                    <div class="positiong">
+                        <p><a name="dingw">定位</a></p>
+                        <p>Positioning</p>
+                        <div class="tex_posit">
+                            中国互联网金融科技基金是专注投资全球范围内互联网金融科技公司的
+                            私募股权投资基金，主要投资在大中华区、欧洲、北美等国家和地区、
+                            处于发展扩张或成熟阶段的互联网金融科技公司
+                        </div>
+                        <div class="tex_posit2">
+                            China    FinTech   Fund    (“CFF”)   targets    equity   or    equity-related
+                            investments  in   internet  financial   technology  companies   at  growth
+                            expansion phase and mature stage mainly in  China, Europe, U.S., and
+                            other regions.
+                        </div>
+                    </div>
+                    <div class="positiong">
+                        <p><a name="yuanq">缘起</a></p>
+                        <p>Origin</p>
+                        <div class="tex_posit">
+                            中国互联网金融科技基金由中民国际资本有限公司（“中民国际”）、
+                            广发投资（开曼）有限公司（“广发投资”）和瓴睿资本（“瓴睿资本
+                            ”）共同发起成立，致力于通过互联网金融科技，改变金融服务的业态
+                            模式，提升金融辐射的深度和广度，引领互联网金融的科技革命
+                        </div>
+                        <div class="tex_posit2">
+                            China FinTech  fund was  founded by  CM International Capital  Limited
+                            ("CM International"), GF Investments (Cayman) Company Limited  ("GF
+                            Investment")   and   L.R.   Capital   Group   ("LRC"),    devoted   to   the
+                            advancement  of internet  finance  through  broadening and  deepening
+                            the  scope  of  internet  financial technology,  with  an  aim  to  enhance
+                            efficiency and quality of financial services.
+                        </div>
+                    </div>
+                    <div class="positiong">
+                        <p><a name="yuanj">愿景</a></p>
+                        <p>Mission</p>
+                        <div class="tex_posit">
+                            利用互联网金融科技的创新，颠覆和改造传统的金融服务模式，发现和
+                            挖掘互联网创新企业并帮助其快速成长
+                        </div>
+                        <div class="tex_posit2">
+                            The  mission   of  CFF  is   to  transform  and   revolutionize  innovative
+                            financial  services companies  that  possess cutting  edge  technologies
+                            and help them grow quickly
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div style="clear: both"></div>
+        <div id="footer" style="position: relative">
+            <div class="fot_lef" >
+                <p>Tel (电话): (852) 3691 8787 &nbsp;&nbsp;&nbsp;Fax (传真): (852) 3691 8829</p>
+                <p>香港中环夏悫道10号和记大厦419-420室</p>
+                <p>Room 419-420,Hutchison House,10 Harcourt Road,Central,Hong Kong</p>
+                <p>中国互联网金融科技投资咨询(香港)有限公司</p>
+                <p>China FinTech Investment Advisory Hong Kong Limited</p>
+            </div>
+            <div class="fot_rg" >
+                <div style="position:absolute;top:90px;left: 590px;z-index: 100">
+                    <a id="boxa">
+                        <img src="../img/top.gif"style="width: 100px;"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function(){
+            $('#boxa').click(function(){
+                $('html,body').animate({scrollTop: $('#nav').offset().top}, 1500);
+            })
+        });
+    </script>
+</body>
+</html>
